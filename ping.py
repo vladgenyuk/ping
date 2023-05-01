@@ -30,6 +30,6 @@ while True:
             count += 1
     except WebSocketConnectionClosedException:
         print('Exception!!!!!')
-        ws = create_connection("wss://currency-app-p9p5.onrender.com/course/ws/123456789")
+        ws = create_connection("wss://currency-app-p9p5.onrender.com/course/ws/12345678")
 
 
