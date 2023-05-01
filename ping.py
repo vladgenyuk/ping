@@ -29,7 +29,7 @@ while True:
                 hour_value = data['data']
             count += 1
     except WebSocketConnectionClosedException:
-        print('Exception!!!!!')
+        print('Exception!!!!!!')
         ws = create_connection("wss://currency-app-p9p5.onrender.com/course/ws/12345678")
 
 
